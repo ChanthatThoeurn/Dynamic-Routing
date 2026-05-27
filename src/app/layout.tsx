@@ -40,14 +40,8 @@ export default function RootLayout({
         <header className="sticky top-0 z-50 border-b border-white/20 bg-black/40 backdrop-blur-xl">
           <Navbar />
         </header>
-
-        {/* Main Content */}
-        <main className="flex-1">
-          <section className="mx-auto w-full max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-            <div className="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-2xl backdrop-blur-md">
-              {children}
-            </div>
-          </section>
+        <main className="flex justify-center items-center min-h-screen">
+          {children}
         </main>
 
         {/* Footer */}
