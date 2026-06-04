@@ -13,6 +13,7 @@ export default function ProductComponent({
 
       
       <div className="relative flex h-72 items-center justify-center bg-gray-100 p-4">
+        <h1 className="text-2xl font-bold text-gray-900">{uuid}</h1>
         <Image
           src={thumbnail}
           alt={name}

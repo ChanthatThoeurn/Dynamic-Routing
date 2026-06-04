@@ -1,7 +1,7 @@
 import { Product } from "@/src/lib/product/product_Type";
 
 
-export function ProductCardComponent({id , title , body  }: Product) {
+export function ProductCardComponent02({id , title , body  }: Product) {
   return (
      
           <article

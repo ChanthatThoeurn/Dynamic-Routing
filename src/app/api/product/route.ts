@@ -1,8 +1,7 @@
 import { NextResponse } from "next/server";
-
 export async function GET(){
     // logic of fetching data
-    const response = await fetch(process.env.BASE_ISHOP_URL+'/products');
+    const response = await fetch(process.env.NEXT_PUBLIC_ISHOP_API_URL+'/products');
     const data = await response.json()
     if(response?.ok){
         return NextResponse.json({
